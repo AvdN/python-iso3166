@@ -11,6 +11,7 @@ __all__ = ["countries"]
 Country = namedtuple('Country', 'name, alpha2, alpha3, numeric')
 
 _records = [
+    Country(u"Afghanistan", "AF", "AFG", "004"),
     Country(u"Åland Islands", "AX", "ALA", "248"),
     Country(u"Albania", "AL", "ALB", "008"),
     Country(u"Algeria", "DZ", "DZA", "012"),
